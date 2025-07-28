@@ -15,7 +15,7 @@
 ### Задачи по категориям:  
 #### Веб-страницы: 
 [Веб-страницы:]().  
-Основные функции для генерации JSON-ответов реализуйте в отдельном модуле views.py.  
+Основные функции для генерации JSON-ответов реализуется в отдельном модуле views.py.  
 Данные для анализа и вывода на веб-страницах — это данные с начала месяца, на который выпадает входящая дата,  
 по входящую дату.
 Если дата — 20.05.2020 , то данные для анализа будут в диапазоне 01.05.2020-20.05.2020.
@@ -83,36 +83,6 @@ pip install -r requirements.txt
 python src/main.py
 
 
-## <a id="title1">Серуктура проекта</a>
- 
-
-
-
-### <p style="margin-left: 1px;"><a style="color: yellow;" id="title1">...\ProjectCours/ </a> 
-#### <p style="margin-left: 1px;">├── <a style="color: turquoise;" id="title1">src/</a>
-<p style="margin-left: 30px;">├── utils.py</p> 
-<p style="margin-left: 30px;">├── main.py</p> 
-<p style="margin-left: 30px;">├── views.py.py</p> 
-<p style="margin-left: 30px;">├── reports.py</p> 
-<p style="margin-left: 30px;">├── services.py</p> 
-
-<p style="margin-left: 1px;">├── <b style="color: turquoise;" id="title1">tests</b>
-<p style="margin-left: 30px;">├── test_utils.py</p>  
-<p style="margin-left: 30px;">├── test_views.py</p>  
-<p style="margin-left: 30px;">├── test_reports.py</p>  
-<p style="margin-left: 30px;">├── test_services.py</p>  
-
-<p style="margin-left: 1px;">├── <b style="color: turquoise;" id="title1">user_settings.json</b>
-<p style="margin-left: 1px;">├── <b style="color: turquoise;" id="title1">.venv/</b>
-<p style="margin-left: 1px;">├── <b style="color: turquoise;" id="title1">.env</b>
-<p style="margin-left: 1px;">├── <b style="color: turquoise;" id="title1">.env_template</b>
-<p style="margin-left: 1px;">├── <b style="color: turquoise;" id="title1">.git/</b>
-<p style="margin-left: 1px;">├── <b style="color: turquoise;" id="title1">.idea/</b>
-<p style="margin-left: 1px;">├── <b style="color: turquoise;" id="title1">.flake8</b>
-<p style="margin-left: 1px;">├── <b style="color: turquoise;" id="title1">.gitignore</b>
-<p style="margin-left: 1px;">├── <b style="color: turquoise;" id="title1">pyproject.toml</b>
-<p style="margin-left: 1px;">├── <b style="color: turquoise;" id="title1">poetry.lock</b>
-<p style="margin-left: 1px;">└── <b style="color: turquoise;" id="title1">README.md</b>
 
 ## <a id="title2">Тестирование</a>
 
@@ -144,30 +114,6 @@ pytest --cov=src --cov-report=html
 
 ## <a id="title3">Лицензия</a>  
 Этот проект лицензируется под MIT License. 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
 
 ### API  
 https://www.cbr-xml-daily.ru/daily_json.js
